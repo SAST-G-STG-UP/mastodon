@@ -5,7 +5,7 @@ var express = require('express'), app = express();
 var sprintf = require('printj').sprintf;
 var logit = require('./_logit');
 var cors = require('./_cors');
-var data = "a,b,c\n1,2,3".split("\n").map(function(x) { return x.split(","); });
+var data = "a,b,c\n1,2,3,4".split("\n").map(function(x) { return x.split(","); });
 var XLSX = require('xlsx');
 
 /* helper to generate the workbook object */
