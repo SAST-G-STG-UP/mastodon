@@ -1,0 +1,7 @@
+{  
+    "scans": {
+      "timeouts": {
+      "perLanguage": 480,
+      "perFile": 60
+    }
+}
